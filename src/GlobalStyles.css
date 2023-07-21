@@ -1,0 +1,59 @@
+* {
+   margin: 0 auto;
+   padding: 0;
+}
+
+body {
+   background-color: #202020;
+}
+
+p, h1, h2, h3, h4 {
+   color: white;
+}
+
+
+/* S C R O L L   B A R */
+
+/* Ancho y color de la barra de desplazamiento */
+body::-webkit-scrollbar {
+   width: 8px;
+   background-color: #101010;
+ }
+ 
+ /* Color del pulgar (la parte arrastrable de la barra de desplazamiento) */
+ body::-webkit-scrollbar-thumb {
+   background-color: #101010;
+   border-radius: 10px;
+ }
+ 
+ /* Ancho y color de la barra de desplazamiento - Firefox */
+ body {
+   scrollbar-width: thin;
+   scrollbar-color: rgba(169, 169, 169, 0.700) #101010;
+   border-radius: 10px;
+ }
+ 
+ /* Color del pulgar (la parte arrastrable de la barra de desplazamiento) - Firefox */
+ body {
+   scrollbar-width: thin;
+   scrollbar-color: rgba(169, 169, 169, 0.700) #101010;
+   border-radius: 10px;
+ }
+ 
+ /* Ancho y color de la barra de desplazamiento - IE 10+ */
+ body {
+   -ms-overflow-style: none;
+   scrollbar-width: thin;
+ }
+ 
+ /* Color del pulgar (la parte arrastrable de la barra de desplazamiento) - IE 10+ */
+ body::-webkit-scrollbar-thumb {
+   background-color: rgba(169, 169, 169, 0.700);
+   border-radius: 10px;
+ }
+ 
+ /* Color del pulgar (la parte arrastrable de la barra de desplazamiento) - IE 10+ */
+ body::-ms-thumb {
+   background-color: rgba(169, 169, 169, 0.700);
+   border-radius: 10px;
+ }
